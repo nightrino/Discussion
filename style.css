@@ -1,0 +1,80 @@
+*{
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+body{
+	background: rgb(245,245,245);
+}
+#header{
+	width: 100%;
+	height: 70px;
+	background: #539;
+	margin-bottom: 30px;
+}
+#header .logo{
+	width: 60px;
+	height: 60px;
+	padding: 5px;
+	float: left;
+}
+#header h1{
+	color: #fff;
+	margin-left: 100px;
+	padding: 12px;
+}
+#bd{
+	width: 350px;
+	height: 350px;
+	margin: 0 auto;
+	border: 2px solid #539;
+	border-radius: 20px;
+}
+.topp{
+	width: 250px;
+	margin-top: 50px;
+	padding: 8px;
+}
+.topp p{
+	text-align: center;
+	color: #777;
+}
+.topp input{
+	margin-top: 3px;
+	border: 2px solid rgba(83,47,140, 0.3);
+	border-radius: 6px;
+}
+.bott{
+	width: 100px;
+	margin-top: 30px;
+	padding: 8px;
+}
+.bott p{
+	color: #777;
+	text-align: center;
+}
+.bott input{
+	margin-top: 3px;
+	border: 2px solid rgba(83,47,140, 0.3);
+	border-radius: 6px;
+}
+.butt{
+	width: 120px;
+	height: 40px;
+	background: #539;
+	border: 2px solid #fff;
+	border-radius: 20px;
+	margin-top: 50px;
+	margin-left: 110px;
+}
+.butt:hover{
+	background: rgb(225,153,43);
+}
+.butt p{
+	font-size: 18px;
+	padding: 9px;
+	color: #fff;
+}
+a{
+	text-decoration: none;
+}
