@@ -1,0 +1,2 @@
+# Discussion
+Igor, Denis, Arthur
