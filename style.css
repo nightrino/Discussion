@@ -11,6 +11,7 @@ body{
 	height: 70px;
 	background: #539;
 	margin-bottom: 30px;
+	box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
 }
 #header .logo{
 	width: 60px;
@@ -20,8 +21,15 @@ body{
 }
 #header h1{
 	color: #fff;
-	margin-left: 100px;
+	margin-left: 30px;
 	padding: 12px;
+	float: left;
+}
+#header p{
+	float: right;
+	padding: 22px;
+	color: #fff;
+	margin-right: 50px;
 }
 #bd{
 	width: 350px;
@@ -29,33 +37,36 @@ body{
 	margin: 0 auto;
 	border: 2px solid #539;
 	border-radius: 20px;
+	box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
 }
 .topp{
-	width: 250px;
+	/*width: 250px;*/
 	margin-top: 50px;
 	padding: 8px;
 }
 .topp p{
-	text-align: center;
+	/*text-align: center;*/
 	color: #777;
 }
 .topp input{
+	width: 330px;
 	margin-top: 3px;
-	border: 2px solid rgba(83,47,140, 0.3);
+	border: 2px solid rgba(83,47,140, 0.2);
 	border-radius: 6px;
 }
 .bott{
-	width: 100px;
+	/*width: 100px;*/
 	margin-top: 30px;
 	padding: 8px;
 }
 .bott p{
 	color: #777;
-	text-align: center;
+	/*text-align: center;*/
 }
 .bott input{
+	width: 330px;
 	margin-top: 3px;
-	border: 2px solid rgba(83,47,140, 0.3);
+	border: 2px solid rgba(83,47,140, 0.2);
 	border-radius: 6px;
 }
 .butt{
